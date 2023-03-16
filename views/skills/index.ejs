@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express skills</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    <h1>Skills</h1>
+    <a href="/skills/new">New Skills to Enjoy Life</a>
+
+    <ul>
+      <% skills.forEach(function(t) { %>
+        <li>
+          <a href="/skills/<%= t.id %>"><%= t.skill %> </a>
+            
+          <%= t.done ? 'Mastered' : 'Needs more practice' %>
+
+          
+        </li>
+      <% }); %>
+    </ul>
+
+    <h5>If You Don't Click What's Blue You'll Make Me Sad</h5>
+</body>
+</html>
