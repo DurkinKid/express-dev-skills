@@ -1,7 +1,8 @@
 const skills = [
   {id: 125223, skill: 'Yodeling', done: true},
   {id: 127904, skill: 'The Force', done: true},
-  {id: 139608, skill: 'Defeating My Enemies', done: true}
+  {id: 139608, skill: 'Defeating My Enemies', done: true},
+  {id: 139609, skill: 'Holding in Gas', done: false}
 ];
 
 module.exports = {
