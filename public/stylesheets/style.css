@@ -10,14 +10,18 @@ a {
   color: #00B7FF;
   text-decoration: none;
 }
-ul:hover {
-  color: blueviolet;
+
+h1 {
+  font: 3rem "ariral";
+  text-decoration: underline;
 }
 
 button {
-  padding: 5px;
+  padding: 10px;
   border-radius: 50%;
   margin-top: 15px;
+  background-color: #00B7FF;
+  color: azure;
 }
 
 ul {
